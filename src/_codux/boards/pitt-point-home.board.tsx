@@ -6,7 +6,7 @@ export default createBoard({
         <div>
             <nav>
                 <a href="/home">Home</a> | Schedule <a href="/projects"></a> | Gemini
-                <a href="/about"></a> | Advisors <a href="/contact"></a>
+                <a href="/about"></a> | Advisorss <a href="/contact"></a>
             </nav>
         </div>
     ),
