@@ -1,14 +1,8 @@
 import { createBoard } from '@wixc3/react-board';
+import styles from './pitt-point-home.board.module.scss';
 
 export default createBoard({
     name: 'PittPoint Home',
-    Board: () => (
-        <div>
-            <nav>
-                <a href="/home">Home</a> | <a href="/projects">Projects</a> |{' '}
-                <a href="/about">About</a> | <a href="/contact">Contact Us</a>
-            </nav>
-        </div>
-    ),
+    Board: () => <div></div>,
     isSnippet: true,
 });
