@@ -10,5 +10,13 @@ export interface PittPointNavProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
 export const PittPointNav = ({ className }: PittPointNavProps) => {
-    return <div className={classNames(styles.root, className)}>PittPointNav</div>;
+    return (
+        <div className={classNames(styles.root, className)}>
+            PittPointNav
+            <nav>
+                <a href="/home">Home</a> | <a href="/projects">Projects</a> |{' '}
+                <a href="/about">About</a> | <a href="/contact">Contact Us</a>
+            </nav>
+        </div>
+    );
 };
