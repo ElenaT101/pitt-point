@@ -17,8 +17,21 @@ export const PittPointNav = ({ className }: PittPointNavProps) => {
                 <div className={styles.div2} />
             </div>
             <nav>
-                <a href="/home">Home</a> | <a href="/projects">Schedule</a> |
-                <a href="/about">Gemeni</a>|<a href="/contact">Advisors</a>
+                <a href="/home" className={styles.a3}>
+                    Home
+                </a>{' '}
+                |{' '}
+                <a href="/projects" className={styles.a2}>
+                    Schedule
+                </a>{' '}
+                |
+                <a href="/about" className={styles.a1}>
+                    Gemeni
+                </a>
+                |
+                <a href="/contact" className={styles.a4}>
+                    Advisors
+                </a>
             </nav>
         </div>
     );
