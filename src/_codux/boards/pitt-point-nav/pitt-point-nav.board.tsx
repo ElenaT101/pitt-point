@@ -5,4 +5,7 @@ export default createBoard({
     name: 'PittPointNav',
     Board: () => <PittPointNav />,
     isSnippet: true,
+    environmentProps: {
+        windowWidth: 1024,
+    },
 });
