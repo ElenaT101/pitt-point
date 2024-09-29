@@ -12,7 +12,10 @@ export interface PittPointNavProps {
 export const PittPointNav = ({ className }: PittPointNavProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            PittPoint
+            <div className={styles.div1}>
+                PittPoint
+                <div className={styles.div2} />
+            </div>
             <nav>
                 <a href="/home">Home</a> | <a href="/projects">Schedule</a> |
                 <a href="/about">Gemeni</a>|<a href="/contact">Advisors</a>
